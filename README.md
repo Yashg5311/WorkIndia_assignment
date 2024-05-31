@@ -40,16 +40,16 @@ Train database:
 ![Screenshot (668)](https://github.com/Yashg5311/WorkIndia_assignment/assets/91370994/4f98f55c-1ce5-4cf2-8230-f31bf08c6329)
 
 
-# Normal User whwn wants to fetch the train between source and destination
+# Normal User when wants to fetch the train between source and destination
 ![Screenshot (669)](https://github.com/Yashg5311/WorkIndia_assignment/assets/91370994/c3ce0d62-c97b-4417-80c0-913b0682c9f7)
 
-# Normal User whwn tries to book a train
+# Normal User when tries to book a train
 ![Screenshot (678)](https://github.com/Yashg5311/WorkIndia_assignment/assets/91370994/a2b6c03b-bc8f-4208-8768-50b7f2709333)
 
 When books an empty train:
 ![Screenshot (676)](https://github.com/Yashg5311/WorkIndia_assignment/assets/91370994/9915bbdd-b806-4f58-84aa-ac3355178b6e)
 
-# Normal user whwn wants to fetch a detail of a particular booking
+# Normal user when wants to fetch a detail of a particular booking
 
 ![Screenshot (674)](https://github.com/Yashg5311/WorkIndia_assignment/assets/91370994/c7326194-6d00-4d1d-b551-69c694ce24fa)
 
@@ -86,6 +86,7 @@ When books an empty train:
     "email": "yash@gmail.com",
   "password": "12345"
 }
+
 Response:
 {
     "message": "User logged in successfully",
