@@ -67,7 +67,7 @@ When books an empty train:
 
 ## API EndPoints
 
- #Users Registers: http://localhost:3000/api/users/register
+ #Users Registers: http://localhost:3000/api/users/register\n
 
  {
   "username": "yash",
@@ -75,25 +75,25 @@ When books an empty train:
   "password": "12345",
   "role": "normal"
 }
-
+ <br>
  Response:
  {
     "message": "User registered successfully"
 }
-
+<br>
  #Users Log in:  http://localhost:3000/api/users/login
  {
     "email": "yash@gmail.com",
   "password": "12345"
 }
-
+<br>
 Response:
 {
     "message": "User logged in successfully",
     "success": true,
     "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjI2LCJyb2xlIjoibm9ybWFsIiwiaWF0IjoxNzE3MTM3NTkwLCJleHAiOjE3MTcyMjM5OTB9.L8xlXL_imKlDxrb1ewL59Q7O3Sfp0NZQBnb0NQj6DUA"
 }
-
+\n
 #Admin when tries to add a Train: http://localhost:3000/api/admin/trains
 {
   "trainName": "Shatabdi",
