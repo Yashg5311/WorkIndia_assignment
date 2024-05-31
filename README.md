@@ -8,7 +8,8 @@ Database Screenshot:
 
 
 # When an admin logs in
-![Screenshot (651)](https://github.com/Yashg5311/WorkIndia_assignment/assets/91370994/ae1fe08f-af39-402f-a995-3bd1
+![Screenshot (651)](https://github.com/Yashg5311/WorkIndia_assignment/assets/91370994/4226a113-9d13-4d76-a1fc-04bf1a7a4b7e)
+
 
 Wrong Password Case:
 ![Screenshot (653)](https://github.com/Yashg5311/WorkIndia_assignment/assets/91370994/d6e3290e-50d2-4790-a415-47465182e87c)
