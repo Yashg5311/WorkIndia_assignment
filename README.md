@@ -121,8 +121,8 @@ response:
 }
 <br/>
 
-# admin whwn tries to update Train Details: http://localhost:3000/api/admin/trains/SH123
-<br/>
+# Admin when tries to update Train Details: http://localhost:3000/api/admin/trains/SH123
+
 {
 "destination":"New Mumbai",
 "totalSeats":60
@@ -163,7 +163,7 @@ Response:
 }
 <br/>
 # Users when tries to book a train: http://localhost:3000/api/bookings/book
-<br/>
+
 {
   "source": "Banglore",
   "destination": "New Mumbai",
@@ -175,8 +175,9 @@ Response:
     "bookingId": "be38b8c9-3793-4a54-9fd0-2479343c83c0"
 }
 <br/>
-# users when tries to fetch  a partcular booking: http://localhost:3000/api/bookings/886f4acb-1270-47a3-8996-434e456a3931
-<br/>
+
+# Users when tries to fetch  a partcular booking: http://localhost:3000/api/bookings/886f4acb-1270-47a3-8996-434e456a3931
+
 {
     "status": "SUCCESS",
     "bookingDetails": {
