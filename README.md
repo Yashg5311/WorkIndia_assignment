@@ -75,26 +75,27 @@ When books an empty train:
   "password": "12345",
   "role": "normal"
 }
- <br>
+ <br/>
  Response:
  {
     "message": "User registered successfully"
 }
-<br>
+<br/>
  #Users Log in:  http://localhost:3000/api/users/login
  {
     "email": "yash@gmail.com",
   "password": "12345"
 }
-<br>
+<br/>
 Response:
 {
     "message": "User logged in successfully",
     "success": true,
     "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjI2LCJyb2xlIjoibm9ybWFsIiwiaWF0IjoxNzE3MTM3NTkwLCJleHAiOjE3MTcyMjM5OTB9.L8xlXL_imKlDxrb1ewL59Q7O3Sfp0NZQBnb0NQj6DUA"
 }
-\n
+<br/>
 #Admin when tries to add a Train: http://localhost:3000/api/admin/trains
+<br/>
 {
   "trainName": "Shatabdi",
   "trainId": "SH125",
@@ -102,6 +103,7 @@ Response:
   "destination": "Mumbai",
   "totalSeats": 0
 }
+<br/>
 response:
 {
     "message": "Train added successfully",
@@ -117,13 +119,15 @@ response:
         "createdAt": "2024-05-31T06:39:37.640Z"
     }
 }
-
+<br/>
 
 # admin whwn tries to update Train Details: http://localhost:3000/api/admin/trains/SH123
+<br/>
 {
 "destination":"New Mumbai",
 "totalSeats":60
 }
+<br/>
 Response:
 {
     "message": "Train details updated successfully",
@@ -139,8 +143,9 @@ Response:
         "updatedAt": "2024-05-31T06:28:58.662Z"
     }
 }
-
+<br/>
 # User whwn tries to fetch train between source and destination : http://localhost:3000/api/trains?source=Banglore&destination=New Mumbai
+<br/>
 {
     "message": "Trains fetched successfully",
     "success": true,
@@ -156,8 +161,9 @@ Response:
         }
     ]
 }
-
+<br/>
 # Users when tries to book a train: http://localhost:3000/api/bookings/book
+<br/>
 {
   "source": "Banglore",
   "destination": "New Mumbai",
@@ -168,7 +174,9 @@ and
     "status": "SUCCESS",
     "bookingId": "be38b8c9-3793-4a54-9fd0-2479343c83c0"
 }
+<br/>
 # users when tries to fetch  a partcular booking: http://localhost:3000/api/bookings/886f4acb-1270-47a3-8996-434e456a3931
+<br/>
 {
     "status": "SUCCESS",
     "bookingDetails": {
@@ -177,7 +185,7 @@ and
         "status": "booked"
     }
 }
-
+<br/>
 
 ## Steps to set up locally
 We use NodeJS , ExpressJS and MySQL for Database Connection
