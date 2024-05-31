@@ -169,7 +169,7 @@ Response:
   "destination": "New Mumbai",
   "trainId": "SH123"
 }
-and
+<br/>
 {
     "status": "SUCCESS",
     "bookingId": "be38b8c9-3793-4a54-9fd0-2479343c83c0"
