@@ -145,7 +145,7 @@ Response:
 }
 <br/>
 # User whwn tries to fetch train between source and destination : http://localhost:3000/api/trains?source=Banglore&destination=New Mumbai
-<br/>
+
 {
     "message": "Trains fetched successfully",
     "success": true,
